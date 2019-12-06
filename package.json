@@ -1,0 +1,24 @@
+{
+  "name": "connect-4-with-electron",
+  "version": "1.0.0",
+  "description": "A version of connect 4 built with electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/andrewevans0102/connect4-electron",
+  "author": "Andrew Evans",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.2",
+    "electron-builder": "^21.2.0"
+  },
+  "build": {
+    "appId": "connect_4_with_electron",
+    "mac": {
+      "category": "public.app-category.entertainment"
+    }
+  }
+}
