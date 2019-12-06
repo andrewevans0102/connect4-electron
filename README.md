@@ -1,6 +1,7 @@
 # connect-4-with-electron
 
 - This is a version of Connect 4 that is built with [Electron](https://electronjs.org/).
+- The Angular version of this same project can be found [here](https://github.com/andrewevans0102/connect4-angular).
 - This project was built by modifying the [quick-start](https://github.com/electron/electron-quick-start) project
 - This project was built for Mac OSX. At the time of writing this, Catalina is the newest version of OSX.
 - The actual code uses bootstrap for styling and [P5JS](https://p5js.org/) for the graphical interface.
